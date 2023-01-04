@@ -1,0 +1,152 @@
+# options
+--swiftversion 5.5
+--self init-only
+--importgrouping testable-last
+--commas inline
+--trimwhitespace always
+--indent 4
+--ifdef no-indent
+--wraparguments after-first
+--wrapparameters after-first
+--wrapcollections before-first
+--wrapconditions after-first
+--wrapreturntype preserve
+--closingparen same-line #or balanced
+--funcattributes prev-line
+--typeattributes prev-line
+--varattributes preserve
+--extensionacl on-extension
+--patternlet inline #or hoist
+--elseposition same-line
+--guardelse same-line
+--emptybraces no-space
+--indentcase false
+--xcodeindentation true
+--linebreaks lf
+--decimalgrouping ignore
+--binarygrouping ignore
+--octalgrouping ignore
+--hexgrouping ignore
+--fractiongrouping disabled
+--exponentgrouping disabled
+--hexliteralcase uppercase
+--exponentcase uppercase
+--semicolons never
+--operatorfunc no-space
+--ranges no-space
+--stripunusedargs unnamed-only #or always
+--header strip
+--marktypes never
+--markextensions if-not-empty
+--typemark "MARK: - %t"
+--groupedextension "MARK: - %c"
+--extensionmark "MARK: - %t + %c"
+--redundanttype explicit
+--typeblanklines remove
+--allman false
+--enumnamespaces always
+--someAny true
+--yodaswap always
+
+# wrap
+# --maxwidth 80
+# --wrapternary before-operators
+
+# rules \
+--rules \
+# acronyms,\
+andOperator,\
+anyObjectProtocol,\
+assertionFailures,\
+blankLineAfterImports,\
+blankLinesAroundMark,\
+blankLinesAtEndOfScope,\
+blankLinesAtStartOfScope,\
+# blankLinesBetweenImports,\
+blankLinesBetweenScopes,\
+blockComments,\
+braces,\
+consecutiveBlankLines,\
+consecutiveSpaces,\
+docComments,\
+duplicateImports,\
+elseOnSameLine,\
+emptyBraces,\
+enumNamespaces,\
+extensionAccessControl,\
+fileHeader,\
+genericExtensions,\
+hoistPatternLet,\
+indent,\
+initCoderUnavailable,\
+isEmpty,\
+leadingDelimiters,\
+linebreakAtEndOfFile,\
+linebreaks,\
+markTypes,\
+modifierOrder,\
+numberFormatting,\
+opaqueGenericParameters,\
+# organizeDeclarations,\
+# preferDouble,\
+preferKeyPath,\
+redundantBackticks,\
+redundantBreak,\
+# redundantClosure,\
+redundantExtensionACL,\
+redundantFileprivate,\
+redundantGet,\
+redundantInit,\
+redundantLet,\
+redundantLetError,\
+redundantNilInit,\
+redundantObjc,\
+redundantOptionalBinding,\
+redundantParens,\
+redundantPattern,\
+redundantRawValues,\
+# redundantReturn,\
+redundantSelf,\
+redundantType,\
+redundantVoidReturnType,\
+semicolons,\
+sortDeclarations,\
+sortedImports,\
+sortedSwitchCases,\
+spaceAroundBraces,\
+spaceAroundBrackets,\
+spaceAroundComments,\
+spaceAroundGenerics,\
+spaceAroundOperators,\
+spaceAroundParens,\
+spaceInsideBraces,\
+spaceInsideBrackets,\
+spaceInsideComments,\
+spaceInsideGenerics,\
+spaceInsideParens,\
+# strongOutlets,\
+strongifiedSelf,\
+todos,\
+trailingClosures,\
+trailingCommas,\
+trailingSpace,\
+typeSugar,\
+unusedArguments,\
+void,\
+# wrap,\
+wrapArguments,\
+wrapAttributes,\
+wrapConditionalBodies,\
+wrapEnumCases,\
+# wrapMultilineStatementBraces,\
+wrapSingleLineComments,\
+wrapSwitchCases,\
+yodaConditions
+
+--exclude Pods,\
+Generated,\
+PackageDescription.swift
+
+### comments
+# --sortDeclarations
+# Sorts the body of declarations with // swiftformat:sort and declarations # between // swiftformat:sort:begin and // swiftformat:sort:end comments.
