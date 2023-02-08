@@ -242,9 +242,9 @@ yodaConditions
 --header strip
 --marktypes never
 --markextensions if-not-empty
---typemark "MARK: - %t"
---groupedextension "MARK: - %c"
---extensionmark "MARK: - %t + %c"
+--typemark MARK: - %t
+--groupedextension MARK: - %c
+--extensionmark MARK: - %t + %c
 --redundanttype explicit
 --typeblanklines remove
 --allman false

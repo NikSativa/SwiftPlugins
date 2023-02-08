@@ -7,6 +7,33 @@
 
 import Foundation
 
-  final class TestSource:Identifiable{
-var id:Int=0
+final class       TestSource
+{
+              var id: Int = 0
+      }
+
+protocol SomeContract {
+
+
+
+             func foo()
+
+
+
 }
+
+extension TestSource: SomeContract {
+
+
+    func foo() {
+        // some code here
+
+
+
+
+    }
+
+
+}
+
+
